@@ -1,0 +1,259 @@
+@media only screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+    }
+    h1{
+        font-family: 'Overpass', sans-serif;
+        color: white;
+        font-weight: 400;
+        font-size: 7vw;
+    }
+    p{
+        font-family: 'Overpass', sans-serif;
+        color: hsl(216, 12%, 54%, 0.5);
+        font-size: 3.7vw;
+        
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .box__child{
+        background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+        height: 85vw;
+        width: 75%;
+        border-radius: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 7vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .box__child__circle{
+        font-family: 'Overpass', sans-serif;
+        color: hsl(216, 12%, 54%, 0.5); 
+        font-size: 3.7vw;
+        background-color:hsl(216, 12%, 54%, 0.1);
+        border-radius: 9vw;
+        width: 10vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box__child__circle:hover{
+        background-color: hsl(217, 12%, 63%);
+        color: white;
+        font-size: 3.7vw;
+    }
+    .box__child__circle--active{
+        background-color:hsl(25, 97%, 53%);
+        color: white;
+        font-family: 'Overpass', sans-serif;
+        font-size: 3.7vw;
+        border-radius: 9vw;
+        width: 10vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box__child__star{
+        width: 3.3vw;
+        height: 3.3vw;
+    }
+    .box__child__numbers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box__child__btn{
+        background-color:hsl(25, 97%, 53%);
+        font-family: 'Overpass', sans-serif;
+        color: white;
+        font-weight: 400;
+        font-size: 3.5vw;
+        letter-spacing: 0.3vw;
+        text-transform: uppercase;
+        width: auto;
+        height: 11vw;
+        border-radius: 7vw;
+        border-style: none;
+    }
+    .box__child__btn:hover{
+        background-color: white;
+        color: hsl(25, 97%, 53%);
+        font-size: 3.5vw;
+    }
+
+    /* Thanks Page Styles */
+    .box__child__thk{
+        background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+        height: 80vw;
+        width: 75%;
+        border-radius: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 7vw;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .box__child__img__thk{
+        width: 40vw;
+    }
+    .btn__thk{
+        width: 50vw;
+        height: 9vw;
+        border-radius: 7vw;
+        border-style: none;
+        background-color: hsl(216, 12%, 54%, 0.1);
+        font-family: 'Overpass', sans-serif;
+        color: hsl(25, 97%, 53%, 0.6);
+        font-size: 4vw;
+    }
+}
+
+
+@media only screen and (min-width: 601px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+    }
+    h1{
+        font-family: 'Overpass', sans-serif;
+        color: white;
+        font-weight: 400;
+        font-size: 2vw;
+    }
+    p{
+        font-family: 'Overpass', sans-serif;
+        color: hsl(216, 12%, 54%, 0.5);
+        font-size: 1vw;
+        
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .box__child{
+        background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+        height: 23vw;
+        width: 23vw;
+        border-radius: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 2.4vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .box__child__circle{
+        font-family: 'Overpass', sans-serif;
+        color: hsl(216, 12%, 54%, 0.5); 
+        font-size: 1vw;
+        background-color:hsl(216, 12%, 54%, 0.1);
+        border-radius: 9vw;
+        width: 3vw;
+        height: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box__child__circle:hover{
+        background-color: hsl(217, 12%, 63%);
+        color: white;
+        font-size: 1vw;
+    }
+    .box__child__circle--active{
+        background-color:hsl(25, 97%, 53%);
+        color: white;
+        font-family: 'Overpass', sans-serif;
+        font-size: 1vw;
+        border-radius: 9vw;
+        width: 3vw;
+        height: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box__child__star{
+        width: 1vw;
+        height: 1vw;
+    }
+    .box__child__numbers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box__child__btn{
+        background-color:hsl(25, 97%, 53%);
+        font-family: 'Overpass', sans-serif;
+        color: white;
+        font-weight: 400;
+        font-size: 1vw;
+        letter-spacing: 0.3vw;
+        text-transform: uppercase;
+        width: auto;
+        height: 3vw;
+        border-radius: 7vw;
+        border-style: none;
+    }
+    .box__child__btn:hover{
+        background-color: white;
+        color: hsl(25, 97%, 53%);
+        font-size: 1vw;
+    }
+
+    /* Thanks Page Styles */
+    .box__child__thk{
+        background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+        height: 23vw;
+        width: 23vw;
+        border-radius: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 2.4vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .box__child__img__thk{
+        width: 15vw;
+    }
+    .btn__thk{
+        width: 15vw;
+        height: 3vw;
+        border-radius: 7vw;
+        border-style: none;
+        background-color: hsl(216, 12%, 54%, 0.1);
+        font-family: 'Overpass', sans-serif;
+        color: hsl(25, 97%, 53%, 0.6);
+        font-size: 1vw;
+    }
+}
+
