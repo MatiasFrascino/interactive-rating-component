@@ -38,4 +38,4 @@ This is a project that simulates an evaluation form. Within the form, you can ch
 
 - GitHub - [Matias Frascino](https://github.com/MatiasFrascino)
 - Frontend Mentor - [@MatiasFrascino](https://www.frontendmentor.io/profile/MatiasFrascino)
-- Linkedin - [Matias Frascino](www.linkedin.com/in/matias-sebastian-frascino-60332316b)
+- Linkedin - [Matias Frascino](https://www.linkedin.com/in/matias-sebastian-frascino-60332316b/)
